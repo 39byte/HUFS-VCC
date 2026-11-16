@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* 디자인 토큰: Trust navy + gold accent (ui-ux-pro-max: Minimalism & Swiss Style) */
+@theme {
+  --color-ink: #0f172a;
+  --color-navy: #1e3a8a;
+  --color-gold: #a16207;
+  --color-gold-soft: #fef3c7;
+  --color-bg: #f8fafc;
+  --color-card: #ffffff;
+  --color-muted: #475569;
+  --color-line: #e2e8f0;
+  --color-soft: #e8ecf1;
+  --font-sans: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+}
+
+:root { color-scheme: light; }
+select, input { max-width: 100%; }
+footer, main { overflow-wrap: anywhere; }
+body { background: var(--color-bg); color: var(--color-ink); font-family: var(--font-sans); -webkit-text-size-adjust: 100%; }
+.num { font-variant-numeric: tabular-nums; }
+:focus-visible { outline: 3px solid var(--color-navy); outline-offset: 2px; }
+button, select, input[type="checkbox"], input[type="radio"], input[type="range"] { cursor: pointer; touch-action: manipulation; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }

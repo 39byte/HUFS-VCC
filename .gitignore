@@ -1,0 +1,8 @@
+node_modules
+dist
+*.local
+# 내부 문서 (외부 비공개)
+SPEC.md
+doc/
+outline/
+*.tsbuildinfo

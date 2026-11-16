@@ -1,0 +1,38 @@
+{
+  "scale": 4.5,
+  "gradePoints": { "A+": 4.5, "A0": 4.0, "B+": 3.5, "B0": 3.0, "C+": 2.5, "C0": 2.0, "D+": 1.5, "D0": 1.0, "F": 0 },
+  "gradePercentBands": { "A+": [95, 100], "A0": [90, 94], "B+": [85, 89], "B0": [80, 84], "C+": [75, 79], "C0": [70, 74], "D+": [65, 69], "D0": [60, 64], "F": [0, 59] },
+  "excludedFromGpa": ["P", "NP"],
+  "gpaTruncateDigits": 2,
+  "gradCredits": {
+    "default": 126,
+    "options": [
+      { "label": "2025학번 이후 (이중전공·부전공·전공심화)", "credits": 126 },
+      { "label": "2015~2024학번 (대부분 단과대)", "credits": 134 },
+      { "label": "사범대학", "credits": 140 },
+      { "label": "통번역대학(2023~2024) / 융합인재대학(2025~)", "credits": 150 }
+    ]
+  },
+  "semesterCredits": { "min": 12, "max": 20, "default": 18, "verified": false },
+  "academicWarning": { "below": 1.75, "dismissAtCount": 4 },
+  "graduation": { "minGpa": 2.0, "magnaCumLaude": 4.0, "summaCumLaude": 4.25, "earlyGraduationMinGpa": 4.0 },
+  "retake": { "eligibleBelow": "C+", "maxGrade": "A0", "maxTotalCredits": 21, "replacesOldGrade": true, "verified": false },
+  "toPercent": null,
+  "links": {
+    "courseCatalogSeoul": "https://wis.hufs.ac.kr/jsp/HUFS/seb/listCourseCatalog.jsp?campusGb=H1",
+    "courseCatalogGlobal": "https://wis.hufs.ac.kr/jsp/HUFS/seb/listCourseCatalog.jsp?campusGb=H2",
+    "gradeRules": "https://www.hufs.ac.kr/hufs/11379/subview.do",
+    "academicWarning": "https://www.hufs.ac.kr/hufs/11382/subview.do",
+    "graduation": "https://www.hufs.ac.kr/hufs/11390/subview.do",
+    "scholarship": "https://www.hufs.ac.kr/hufs/11393/subview.do",
+    "kosafType1": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_01_01&naviParam=JH,02,02,05",
+    "hufsHome": "https://www.hufs.ac.kr",
+    "counseling": null,
+    "learningSupport": null
+  },
+  "contacts": [
+    { "label": "학사종합지원센터 (서울)", "tel": "02-2173-2112" },
+    { "label": "학사종합지원센터 (글로벌)", "tel": "031-330-4027" }
+  ],
+  "updatedAt": "2026-11-04"
+}
